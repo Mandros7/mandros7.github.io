@@ -5,10 +5,10 @@
 
 body {
 
-	background: "/assets/img/fondo_final.jpg"
+	background-image: url('{{ site.baseurl }}/assets/img/fondo_final.jpg');
 }
 
 .wrapper {
-	width: 75%
-	background: #252525
+	width: 75%;
+	background: #252525;
 }
