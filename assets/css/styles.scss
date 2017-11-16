@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+body {
+
+	background: "/assets/img/fondo_final.jpg"
+}
+
 .wrapper {
-	width: 50%
+	width: 75%
+	background: #252525
 }
