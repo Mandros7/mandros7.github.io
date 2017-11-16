@@ -219,6 +219,18 @@ dt {
         float: right;
         margin-left: 6px;
       }
+	  
+	  &.twitter {
+		float: left;
+		margin-right: 6px;
+	  }
+	  
+	  &.twitterText {
+		float: left;
+		margin-right: 10px;
+		font-size: 11px;
+	  }
+
 
       &.title {
         float: right;
