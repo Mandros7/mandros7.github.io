@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
-.mainImage {
-	float: right;
+.center-image
+{
+    margin: 0 auto;
+    display: block;
 }
