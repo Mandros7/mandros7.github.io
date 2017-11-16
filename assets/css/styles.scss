@@ -2,15 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-
-body {
-
-	background-image: url('/assets/img/fondo_final.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.wrapper {
-	width: 75%;
-	background: #252525;
-}
