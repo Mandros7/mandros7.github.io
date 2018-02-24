@@ -1,0 +1,147 @@
+html {
+  height: 100%; 
+}
+
+body {
+  background-color: black;
+  background-image: url("/img/background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 10em;
+}
+
+.fancybox-slide--video .fancybox-content {
+	width  : 800px;
+	height : 600px;
+	max-width  : 80%;
+	max-height : 80%;
+}
+
+.row {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#btn-store {
+  margin: 0 auto;
+}
+
+
+.main-column {
+  max-width: 75em;
+  margin: 0em auto;
+  padding: 0em 1em 0em 1em;
+}
+
+@font-face {
+  font-family: 'Patrick Hand', cursive;
+}
+@font-face {
+  font-family: 'Patrick Hand', cursive;
+}
+
+p, h3, h4, h5 {
+  color: #C8D7E3;  
+  font-size: 18px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #66CCFF; 
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black, 0 0 0.4em black;
+  /* TODO: use webkit or something for text outlines instead of this. */
+  font-family: 'Patrick Hand', cursive;
+}
+
+/* Mailing list */
+#mc_embed_signup form {
+  margin: 0 auto;
+  color: #C8D7E3;
+  max-width: 20em;
+}
+
+#mc_embed_signup h3 {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black, 0 0 0.4em black;
+}
+
+#mc_embed_signup span {
+  display: inline-block;
+  display: -moz-inline-box; /*Firefox fix*/
+}
+
+#elevatorpitch {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black, 0 0 0.4em black;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#elevatorpitch h3 {
+  line-height: 1.3em;
+}
+
+.gallery-row img:hover {
+  transform: scale(1.1);
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.gallery-row img {
+  margin: 1em 1em 1em 1em;
+  max-width: 70%;
+  transition: all .2s ease-in-out
+}
+
+/* On large screens, display the gallery images side by side in rows of 3. */
+@media (min-width: 700px) {
+  .gallery-row img {
+    max-width: 30%;
+  }
+}
+
+.shadowblock {
+  background: rgba(0,0,0,0.75);
+  margin-bottom: 1.2em;
+  padding: 2em 2em 2em 2em;
+}
+
+.shadowblock img {
+  width: 90%;
+}
+
+.shadowblock h4 {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 7em;
+  text-align: center;
+}
+
+.features iframe, object, embed {
+    max-width: 100%;
+}
+
+.features {
+  text-align: center;
+}
+
+.socialmedia svg {
+  max-width: 2em;
+  fill: #C8D7E3;  
+  margin-right: 1em;
+}
+.socialmedia svg:hover {
+  fill: #66CCFF; /* gold */
+}
+
+#footer p {
+  text-align: center
+}

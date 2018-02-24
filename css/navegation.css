@@ -1,0 +1,54 @@
+
+.blog-masthead {
+  margin-bottom: 2em;
+  background-color: #000;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  font-family: 'Patrick Hand', cursive;
+  display: inline-block;
+  position: relative;
+  padding: 0.8em;
+  font-weight: 500;
+  color: #C8D7E3;  
+}
+
+.blog-nav-item:hover {
+  color: #66CCFF; 
+}
+
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  text-decoration: none;
+  background-color: #222;
+}
+
+.blog-nav-item:focus {
+  color: #C8D7E3;  
+}
+
+.blog-nav {
+  text-align: center;
+}
+
+
+.blog-nav .active {
+  color: #66CCFF; 
+}
+
+.blog-nav .active:after {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-top: 5px solid;
+  border-left: 5px solid transparent;
+}
