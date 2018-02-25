@@ -14,7 +14,7 @@
   padding: 0.8em;
   font-weight: 500;
   color: #C8D7E3;  
-}
+} 
 
 
 /* Nav links */
@@ -25,6 +25,7 @@
   padding: 0.8em;
   font-weight: 500;
   color: black;
+  text-align: right;
 }
 
 .blog-nav-lang span {
@@ -56,7 +57,7 @@
 
 .blog-nav .active:after {
   position: absolute;
-  top: 5%;
+  top: 0.5%;
   left: 50%;
   width: 0;
   height: 0;

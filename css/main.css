@@ -3,8 +3,7 @@ html {
 }
 
 body {
-  background-color: black;
-  background-image: url("/img/background.png");
+  background-color: gray;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -39,10 +38,10 @@ body {
 }
 
 @font-face {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Boogaloo', cursive;
 }
 @font-face {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Boogaloo', cursive;
 }
 
 p, h3, h4, h5 {
@@ -52,11 +51,21 @@ p, h3, h4, h5 {
 
 h1, h2 {
   text-align: center;
-  color: #66CCFF; 
+  color: white; 
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black, 0 0 0.4em black;
   /* TODO: use webkit or something for text outlines instead of this. */
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Boogaloo', cursive;
 }
+
+
+h1.mainTitle {   
+      color: white; 
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black, 0 0 0.4em black;
+      /* TODO: use webkit or something for text outlines instead of this. */
+      font-family: 'Merienda One', cursive;
+      font-size: 100px
+}
+
 
 /* Mailing list */
 #mc_embed_signup form {
@@ -139,7 +148,7 @@ h1, h2 {
   margin-right: 1em;
 }
 .socialmedia svg:hover {
-  fill: #66CCFF; /* gold */
+  fill: white; /* gold */
 }
 
 #footer p {
