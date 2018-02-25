@@ -11,7 +11,7 @@
   font-family: 'Patrick Hand', cursive;
   display: inline-block;
   position: relative;
-  padding: 0.8em;
+  padding: 0.5em;
   font-weight: 500;
   color: #C8D7E3;  
 } 
@@ -22,7 +22,7 @@
   font-family: 'Patrick Hand', cursive;
   display: inline-block;
   position: relative;
-  padding: 0.8em;
+  padding-left: 2em;
   font-weight: 500;
   color: black;
   text-align: right;
@@ -57,7 +57,7 @@
 
 .blog-nav .active:after {
   position: absolute;
-  top: 0.5%;
+  top: 1.2%;
   left: 50%;
   width: 0;
   height: 0;
