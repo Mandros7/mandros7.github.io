@@ -28,23 +28,29 @@
 <div class="blog-masthead">
   <div class="container">
     <nav class="blog-nav">
-        <a class="blog-nav-item" href="/">Home</a>
-        <a class="blog-nav-item" href="/#">Team</a>
-        <a class="blog-nav-item" href="/#">Media</a>
+        <a class="blog-nav-item" href="/" translate="nav.home"></a>
+        <a class="blog-nav-item" href="/#" translate="nav.team"></a>
+        <a class="blog-nav-item" href="/#" translate="nav.media"></a>
         <!--a class="blog-nav-item" href="/press/">Press</a-->
+        <div class="blog-nav-lang">
+            <span translate="lang.lang"></span>
+            <select id="select" onchange="getval(this);" style="text-color:#fff">
+                <option id="english" value="en" translate="lang.en"></option>
+                <option id="spanish" value="es" translate="lang.es"></option>
+            </select>
+        </div>
     </nav>
   </div>
 </div>
 
     <div class="container">
         <div class="features">
-            <h1>Coming Soon</h1>
+            <h1 translate="main.title"></h1>
             <div class="shadowblock">
                 <span class="row">
                     <span class="col-md-6">
-                        <h2>Under development</h2>
-                        <h4>Bargul and this website are still under development. Please stay tuned, and check out our Twitter for the latest updates!
-                        </h4>
+                        <h2 translate="main.sectionOneTitle"></h2>
+                        <h4 translate="main.sectionOneText"></h4>
                     </span>
                     <span class="col-md-6">
                         <img src="https://media.giphy.com/media/Z1OMmrdF4QhLq/giphy.gif" style="width:40%;" alt="">
@@ -70,5 +76,34 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
 <script src="/js/blueimp-gallery.min.js"></script>
 <script src="/js/script.js"></script>
+<script src="/js/localize.js"></script>
+<script>            
+
+var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+                   navigator.language ||   // All browsers
+                   navigator.userLanguage; // IE <= 10  
+
+var value = "; " + document.cookie;
+var parts = value.split("; language=");
+if (parts.length == 2) {
+    language = parts.pop().split(";").shift(); 
+    localize.translate(language);    
+}            
+else {
+    localize.translate(language.split("-")[0]);
+}
+
+
+$(function() {
+    $("#select").val(language.split("-")[0]);
+});
+
+function getval(sel)
+{
+    document.cookie = "language="+sel.value;
+    localize.translate(sel.value);
+}
+
+</script>
 </body>
 </html>

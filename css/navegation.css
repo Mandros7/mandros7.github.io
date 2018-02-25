@@ -16,6 +16,21 @@
   color: #C8D7E3;  
 }
 
+
+/* Nav links */
+.blog-nav-lang {
+  font-family: 'Patrick Hand', cursive;
+  display: inline-block;
+  position: relative;
+  padding: 0.8em;
+  font-weight: 500;
+  color: black;
+}
+
+.blog-nav-lang span {
+    color: #C8D7E3; 
+}
+
 .blog-nav-item:hover {
   color: #66CCFF; 
 }
