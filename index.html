@@ -90,13 +90,14 @@ if (parts.length == 2) {
     localize.translate(language);    
 }            
 else {
-    localize.translate(language.split("-")[0]);
+    
+    language = language.split("-")[0]
+    if (language != "es") {
+        language = "en"
+    }
+    localize.translate(language);
+    $("#select").val(language);
 }
-
-
-$(function() {
-    $("#select").val(language.split("-")[0]);
-});
 
 function getval(sel)
 {
