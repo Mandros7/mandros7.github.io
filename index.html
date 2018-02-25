@@ -87,7 +87,8 @@ var value = "; " + document.cookie;
 var parts = value.split("; language=");
 if (parts.length == 2) {
     language = parts.pop().split(";").shift(); 
-    localize.translate(language);    
+    localize.translate(language);  
+    $("#select").val(language);    
 }            
 else {
     
