@@ -7,7 +7,7 @@
     "about.mainTitle": "It's a meteor apocalypse!",
     "about.mainText": "Bargul the magician has detected a dangerous meteor shower that is heading straight to his roof. This situation will require his amazing predition skills.",
     "about.secTitle": "¡My artifacts!",
-    "about.secText": "The only way to survive will be to saving his celestial artifacts, which he will need to survive",
+    "about.secText": "The only way to survive will be to saving his celestial artifacts",
     "objects.mainText": "Bargul will use his artifacts to survive this mayhem: each of them provides him with an special ability.",
     "objects.mainTitle": "The artifacts",
     "objects.telescope": "The telescope will show the area of impact for the meteors",
@@ -18,5 +18,12 @@
     "nav.media": "Multimedia",
     "lang.lang": "Language: ",
     "lang.es": "Spanish",
-    "lang.en": "English"
+    "lang.en": "English",
+    "team.title": "Development team",
+    "team.sectionTwoText": "Héctor Rodríguez Campo",
+    "team.sectionThreeText": "Sergio Álvarez González",
+    "team.sectionOneText": "Santiago Machín Cavallé",
+    "team.sectionTwoTextTwo": "His curiosity has always move him to find out how everything works inside, and his pasion for videogames makes it even stronger. He is the main programmer and sound designer of Bargul.",
+    "team.sectionThreeTextTwo": "Ever since he was a kid, he enjoyed creating worlds drawing and observing nature. Now he creates them in the form of videogames. His roles are Concept Artist and 3D artist.",
+    "team.sectionOneTextTwo": "Santiago's childhood is heavily influenced by the videogame world. After deciding to make a living with his pasion, Bargul becomes his first attempt at the industry of his dreams. He is in charge of visual effects, animations and user experience." 
 }

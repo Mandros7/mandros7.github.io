@@ -7,8 +7,8 @@
     "about.mainTitle": "Una lluvia de meteoritos",
     "about.mainText": "Bargul el mago ha detectado una peligrosa lluvia de meteoritos que se dirige a su tejado y deberá darle uso a sus avanzadas habilidades de predicción",
     "about.secTitle": "¡Mis objetos!",
-    "about.secText": "La única forma de sobrevivir será salvaguardando sus objetos de observación celestial, que necesitará para sobrevivir",
-    "objects.mainText": "Bargul usará sus objetos mágicos para sobrevivir a la catástrofe, cada uno le proporciona una habilidad especial",
+    "about.secText": "La única forma de sobrevivir será salvaguardando sus objetos de observación celestial",
+    "objects.mainText": "Bargul usará sus objetos mágicos para sobrevivir a la catástrofe: cada uno de ellos le confiere un poder",
     "objects.mainTitle": "Los objetos",
     "objects.telescope": "El telescopio muestra el área de impacto de los meteoritos",
     "objects.abacus": "El abaco permite calcular el tiempo restante para un impacto",
@@ -18,5 +18,12 @@
     "nav.media": "Multimedia",
     "lang.lang": "Idioma: ",
     "lang.es": "Español",
-    "lang.en": "Inglés"
+    "lang.en": "Inglés",
+    "team.title": "Equipo de desarrollo",
+    "team.sectionTwoText": "Héctor Rodríguez Campo",
+    "team.sectionThreeText": "Sergio Álvarez González",
+    "team.sectionOneText": "Santiago Machín Cavallé",
+    "team.sectionTwoTextTwo": "Su curiosidad siempre le ha llevado a tratar de descubrir cómo funciona todo por dentro y su pasión por los videojuegos es el mayor catalizador de esa curiosidad. Se encarga de la programación y el sonido de Bargul.",
+    "team.sectionThreeTextTwo": "Desde niño le gustó crear mundos dibujando y observando cómo funciona la naturaleza. Ahora se dedica a crearlos en forma de videojuegos. Sus roles son el de Concept Artist y 3D Artist.",
+    "team.sectionOneTextTwo": "La infancia de Santiago está ampliamente marcada por el mundo de los videojuegos. Tras decidir vivir de su pasión convierte Bargul en su primer intento por abrirse paso en la industria de sus sueños. Es el responsable de los efectos visuales, las animaciones la experiencia de usuario en términos generales."
 }
